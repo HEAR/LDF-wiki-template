@@ -1,8 +1,10 @@
 <?php
 /**
- * DokuWiki Default Template 2012
+ * Lignes de front 1914-2018 wiki template
+ * based on DokuWiki Default Template 2012
  *
- * @link     http://dokuwiki.org/template
+ * @link     http://lignesdefront.hear.fr
+ * @author   Loïc Horellou <hello@loichorellou.net>
  * @author   Anika Henke <anika@selfthinker.org>
  * @author   Clarence Lee <clarencedglee@gmail.com>
  * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)

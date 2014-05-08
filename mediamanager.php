@@ -1,6 +1,7 @@
 <?php
 /**
- * DokuWiki Media Manager Popup
+ * Lignes de front 1914-2018 wiki template
+ * based on DokuWiki Media Manager Popup
  *
  * @author   Andreas Gohr <andi@splitbrain.org>
  * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)

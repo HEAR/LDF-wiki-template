@@ -1,6 +1,7 @@
 <?php
 /**
- * DokuWiki Image Detail Page
+ * Lignes de front 1914-2018 wiki template
+ * based on DokuWiki Image Detail Page
  *
  * @author   Andreas Gohr <andi@splitbrain.org>
  * @author   Anika Henke <anika@selfthinker.org>

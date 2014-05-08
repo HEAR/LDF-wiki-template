@@ -1,7 +1,7 @@
-base     dokuwiki
-author   Anika Henke
-email    anika@selfthinker.org
-date     2013-05-02
-name     DokuWiki Template
-desc     DokuWiki's default template since 2012
-url      http://www.dokuwiki.org/template:dokuwiki
+base     ldf
+author   Loïc Horellou
+email    hello@loichorellou.net
+date     2014-05-08
+name     Lignes de front Template
+desc     Lignes de front 1914-2018 wiki template based on DokuWiki Default Template 2012
+url      http://lignesdefront.hear.fr
