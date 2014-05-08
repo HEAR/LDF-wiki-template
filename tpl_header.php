@@ -28,7 +28,9 @@ if (!defined('DOKU_INC')) die();
                 '<img src="'.$logo.'" '.$logoSize[3].' alt="" /> <span>'.$conf['title'].'</span>',
                 'accesskey="h" title="[H]"'
             );
-        ?></h1>
+        ?>
+        <div style="clear:both"></div>
+        </h1>
         <?php if ($conf['tagline']): ?>
             <p class="claim"><?php echo $conf['tagline']; ?></p>
         <?php endif ?>

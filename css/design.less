@@ -11,22 +11,28 @@
 ********************************************************************/
 
 #dokuwiki__header {
-    margin-top:2em;
-    padding: 2em 0 1.5em;
 
-    .headings,
+    border: solid 5px @ini_link;
+    padding: 0;
+    margin-top:2em;
+    /*padding: 2em 0 1.5em;*/
+
+    /*.headings,*/
     .tools {
         margin-bottom: 1.5em;
         width: 49%;
     }
     .tools {
         margin-top: .2em;
+        padding: 1em;
     }
 
     h1 {
         margin: 0;
         font-size: 1.5em;
         font-weight: normal;
+        border-right: 5px solid @ini_link;
+        padding: 1em;
 
         img {
             float: left;
@@ -40,7 +46,7 @@
 
         a {
             text-decoration: none;
-            color: @ini_text;
+            color: @ini_link;
             background-color: inherit;
         }
     }
@@ -246,27 +252,30 @@ form.search {
 /*____________ breadcrumbs ____________*/
 
 .dokuwiki div.breadcrumbs {
-    border-top: 1px solid @ini_border;
+    /*border-top: 1px solid @ini_border;
     border-bottom: 1px solid @ini_background;
-    margin-bottom: .5em;
+    margin-bottom: .5em;*/
     font-size: 0.875em;
     clear: both;
+    margin: 0;
+    border-top: 5px solid @ini_link;
+    padding: .2em 2em; 
 
     div {
         padding: .1em .35em;
     }
 
     div:only-child {
-        border-top: 1px solid @ini_background;
-        border-bottom: 1px solid @ini_border;
+        /*border-top: 1px solid @ini_background;
+        border-bottom: 1px solid @ini_border;*/
     }
 
     div:first-child {
-        border-top: 1px solid @ini_background;
+        /*border-top: 1px solid @ini_background;*/
     }
 
     div:last-child {
-        border-bottom: 1px solid @ini_border;
+        /*border-bottom: 1px solid @ini_border;*/
     }
 
     .bcsep {
@@ -276,7 +285,7 @@ form.search {
 
 #IE7 .dokuwiki div.breadcrumbs div,
 #IE8 .dokuwiki div.breadcrumbs div {
-    border-bottom: 1px solid @ini_border;
+    /*border-bottom: 1px solid @ini_border;*/
 }
 
 /* sidebar
@@ -350,11 +359,15 @@ form.search {
 ********************************************************************/
 
 .dokuwiki .pageId {
-    position: absolute;
+    /*position: absolute;
     top: -2.3em;
     right: -1em;
-    overflow: hidden;
-    padding: 1em 1em 0;
+    overflow: hidden;*/
+    
+    border-left: solid 5px @ini_link;
+    border-right: solid 5px @ini_link;
+    padding: 0.5em 2em 0;
+    text-align: right;
 
     span {
         font-size: 0.875em;
@@ -362,11 +375,12 @@ form.search {
         border-width: 1px 1px 0;
         background-color: @ini_background;
         color: @ini_text_alt;
-        padding: .1em .35em;
-        border-top-left-radius: 2px;
+        padding: .1em .35em .1em 0;
+        /*border-top-left-radius: 2px;
         border-top-right-radius: 2px;
-        box-shadow: 0 0 .5em @ini_text_alt;
-        display: block;
+        box-shadow: 0 0 .5em @ini_text_alt;*/
+        /*display: block;*/
+        text-decoration: underline;
     }
 }
 
@@ -377,7 +391,7 @@ form.search {
     border-top:0;
     /*box-shadow: 0 0 .5em @ini_text_alt;*/
     /*border-radius: 2px;*/
-    padding: 1.556em 2em 2em;
+    padding: 0 2em 2em;
     margin-bottom: .5em;
     overflow: hidden;
     word-wrap: break-word;
